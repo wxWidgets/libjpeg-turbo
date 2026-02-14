@@ -1,4 +1,4 @@
-#if defined(_WIN32)
+#if defined(_MSC_VER)
 #include "jconfig.vc"
 #else
 
@@ -83,6 +83,5 @@ typedef unsigned char boolean;
 #undef PROGRESS_REPORT
 
 #endif /* JPEG_CJPEG_DJPEG */
-#endif
-    /* _MSC_VER */
 
+#endif /* _MSC_VER */
