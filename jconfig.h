@@ -1,4 +1,4 @@
-#if defined(_MSC_VER)
+#if defined(_WIN32)
 #include "jconfig.vc"
 #else
 
@@ -84,4 +84,4 @@ typedef unsigned char boolean;
 
 #endif /* JPEG_CJPEG_DJPEG */
 
-#endif /* _MSC_VER */
+#endif /* _WIN32 */
